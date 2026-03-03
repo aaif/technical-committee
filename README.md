@@ -4,14 +4,14 @@ The AAIF Technical Committee (TC) is the technical governing body of the Agentic
 
 ## Members
 
-* Amazon Web Services, Inc. - **James Ward** @jamesward
-* Anthropic - **David Soria Parra [TC CHAIR]**
-* Block, Inc. - **Bradley Axen**
-* Bloomberg L.P. - **Sambhav Kothari** @sambhav
-* Cloudflare - **Steve Faulkner**
-* Google - **Alan Blount** @zeroasterisk
-* Microsoft Corporation - **Caitie McCaffrey [TC CO-CHAIR]**
-* OpenAI Inc - **Romain Huet**
+* **Alan Blount [@zeroasterisk](https://github.com/zeroasterisk)** - Google
+* **Bradley Axen** - Block
+* **Caitie McCaffrey [TC CO-CHAIR]** - Microsoft
+* **David Soria Parra [TC CHAIR]** - Anthropic
+* **James Ward [@jamesward](https://github.com/jamesward)** - Amazon Web Services
+* **Romain Huet** - OpenAI
+* **Sambhav Kothari [@sambhav](https://github.com/sambhav)** - Bloomberg
+* **Steve Faulkner** - Cloudflare
 
 All founding TC members were appointed by the AAIF Governing Board. 
 
@@ -81,7 +81,7 @@ Join the public [AAIF Discord server](https://discord.com/invite/9zTwngHAMy).
 ## Working Groups
 The TC supports multiple technical working groups. **Working Groups are only open to AAIF members at this time.** Participants must be invited to join. 
 
-If someone from your organization would like to join, please have them [sign up here](https://forms.gle/mqvEADnhCsmsvmC69) using their business email address.
+If someone from an AAIF member organization would like to join, please [sign up here](https://forms.gle/mqvEADnhCsmsvmC69) using your business email address.
 
 The current list of working groups are:
    - Accuracy & Reliability
@@ -91,5 +91,3 @@ The current list of working groups are:
    - Observability & Traceability
    - Security & Privacy
    - Workflows & Process Integration
-
-
