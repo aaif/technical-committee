@@ -5,11 +5,11 @@ The AAIF Technical Committee (TC) is the technical governing body of the Agentic
 ## Members
 
 * **Alan Blount [@zeroasterisk](https://github.com/zeroasterisk)** - Google
-* **Bradley Axen** - Block
-* **Caitie McCaffrey [TC CO-CHAIR]** - Microsoft
-* **David Soria Parra [TC CHAIR]** - Anthropic
+* **Bradley Axen [@baxen](https://github.com/baxen)** - Block
+* **Caitie McCaffrey [TC CO-CHAIR] [@CaitieM20](https://github.com/CaitieM20)** - Microsoft
+* **David Soria Parra [TC CHAIR] [@dsp](https://github.com/dsp)** - Anthropic
 * **James Ward [@jamesward](https://github.com/jamesward)** - Amazon Web Services
-* **Romain Huet** - OpenAI
+* **Romain Huet [@romainhuet](https://github.com/romainhuet)** - OpenAI
 * **Sambhav Kothari [@sambhav](https://github.com/sambhav)** - Bloomberg
 * **Steve Faulkner** - Cloudflare
 
@@ -58,7 +58,7 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
 
 **Do you want to contribute to a project?** 
 
-Fill out our project contribution inquiry form (*coming soon*) and the Technical Committee will review your request. 
+Create an issue in our Project Proposals repository (*coming soon*) and the Technical Committee will review your request. 
 
 If you would like to know more about the project lifecycle we use, we have outlined the process (*coming soon*).
 
