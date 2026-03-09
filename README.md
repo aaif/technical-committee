@@ -9,7 +9,7 @@ The AAIF Technical Committee (TC) is the technical governing body of the Agentic
 * **Caitie McCaffrey [TC CO-CHAIR] [@CaitieM20](https://github.com/CaitieM20)** - Microsoft
 * **David Soria Parra [TC CHAIR] [@dsp](https://github.com/dsp)** - Anthropic
 * **James Ward [@jamesward](https://github.com/jamesward)** - Amazon Web Services
-* **Romain Huet [@romainhuet](https://github.com/romainhuet)** - OpenAI
+* **Nick Cooper [@nickcoai](https://github.com/nickcoai)** - OpenAI
 * **Sambhav Kothari [@sambhav](https://github.com/sambhav)** - Bloomberg
 * **Steve Faulkner** - Cloudflare
 
