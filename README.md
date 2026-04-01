@@ -58,9 +58,9 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
 
 **Do you want to contribute to a project?** 
 
-Create an issue in our Project Proposals repository (*coming soon*) and the Technical Committee will review your request. 
+Create an issue in our [Project Proposals repository](https://github.com/aaif/project-proposals/tree/main) and the Technical Committee will review your request. 
 
-If you would like to know more about the project lifecycle we use, we have outlined the process (*coming soon*).
+If you would like to know more about the project lifecycle we use, review our [Project Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/governance/project-lifecycle-policy.md).
 
 ## Meetings
 
@@ -91,3 +91,5 @@ The current list of working groups are:
    - Observability & Traceability
    - Security & Privacy
    - Workflows & Process Integration
+
+If you would like to propose a new working group, please create a new issue in our [Working Groups Proposal repository](https://github.com/aaif/working-group-proposals), and the Technical Committee will review your request. 
