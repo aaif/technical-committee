@@ -11,7 +11,7 @@ The AAIF Technical Committee (TC) is the technical governing body of the Agentic
 * **James Ward [@jamesward](https://github.com/jamesward)** - Amazon Web Services
 * **Nick Cooper [@nickcoai](https://github.com/nickcoai)** - OpenAI
 * **Sambhav Kothari [@sambhav](https://github.com/sambhav)** - Bloomberg
-* **Steve Faulkner** - Cloudflare
+* **Steve Faulkner [@southpolesteve](https://github.com/southpolesteve)** - Cloudflare
 
 All founding TC members were appointed by the AAIF Governing Board. 
 
