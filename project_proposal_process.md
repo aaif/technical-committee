@@ -150,7 +150,7 @@ This on-demand mechanism is preferred over a default requirement that every proj
 
 **Owner:** Project submitter, supported by AAIF PMO
 
-If a project passes Step 1, , AAIF PMO will initiate the project formation workstream with LF Legal in parallel with Step 2\. A draft contribution agreement and technical charter are prepared and shared with the submitter and their legal counsel for review. The submitter must return agreed documents, execution-ready, before the GB vote opens in Step 5\. This avoids delays later in the process and gives the GB confidence that a yes vote leads directly to execution.
+If a project passes Step 1, AAIF PMO will initiate the project formation workstream with LF Legal in parallel with Step 2\. A draft contribution agreement and technical charter are prepared and shared with the submitter and their legal counsel for review. The submitter must return agreed documents, execution-ready, before the GB vote opens in Step 5\. This avoids delays later in the process and gives the GB confidence that a yes vote leads directly to execution.
 
 ## **Step 3 - TC vote**
 
