@@ -64,7 +64,7 @@ If you would like to know more about the project lifecycle we use, review our [P
 
 ## Meetings
 
-The TC meets biweekly on Tuesdays at 8AM PT (USA Pacific Time; [Convert to local time zone](http://www.thetimezoneconverter.com/?t=8:00AM&tz=San%20Francisco)).  
+The TC meets biweekly on Tuesdays at 1:00PM PT (USA Pacific Time; [Convert to local time zone](http://www.thetimezoneconverter.com/?t=8:00AM&tz=San%20Francisco)).  
 
 The TC is currently still formalizing its governance and policies. Once established, the TC meetings will open to the public. 
 
