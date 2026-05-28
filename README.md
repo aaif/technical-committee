@@ -1,6 +1,6 @@
 # ⚖️ AAIF Technical Committee (TC)
 
-The AAIF Technical Committee (TC) is the technical governing body of the Agentic AI Foundation. It oversees technical standards, best practices, and technical vision for the Foundation. This repo contains meeting details, working groups project information, and process documents for the AAIF TC. For more information, review the [Technical Charter](/charter.md).
+The AAIF Technical Committee (TC) is the technical governing body of the Agentic AI Foundation. It oversees technical standards, best practices, and technical vision for the Foundation. This repo contains meeting details, working groups project information, and process documents for the AAIF TC. For more information, review the [Technical Charter](/governance/charter.md).
 
 ## Members
 
