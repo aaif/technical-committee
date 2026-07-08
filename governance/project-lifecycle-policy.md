@@ -22,7 +22,7 @@ Capitalized terms not otherwise defined in this Project Lifecycle Policy have th
 
 ---
 
-## Project Proposal Process
+## Project Proposal Process Overview
 
 ### Introduction
 
@@ -60,26 +60,57 @@ Projects can optionally provide the following:
 * details of integrations with other AAIF projects  
 * a published roadmap  
 * openSSF best practices badge  
-* desired stage, Growth or Impact
+* desired stage, Sandbox, Growth, or Impact
 
 Projects will be required to: (1) have their existing project host transfer project trademarks and other project assets to the LF as a requirement to join the AAIF; and (2) adopt a technical charter, in the form provided by the LF or as approved by the LF, that specifies the intellectual property policy for the project and how decisions will be made. 
 
 ### Project Acceptance Process
 
-* Projects are expected to meet the requirements before submitting their project proposal.  
-* Following the submission of a project proposal using the AAIF Project Submission System on GitHub, as described above, AAIF staff will provide draft governance documents and a contribution agreement for assets being transferred.  
-* Projects are required to present their proposal at a Technical Committee meeting arranged by the project's TC sponsor.  
-* The Technical Committee may ask for changes to bring the project into better alignment with the AAIF.  
-* The project will need to make these changes in order to progress further.  
-* Projects receiving an absolute majority vote (\>50%) of all members of the Technical Committee are referred to the Governing Board for approval.
-* The Technical Committee will determine the appropriate initial stage for an accepted project. The project can apply for a different stage via the review process upon meeting the stage’s requirements.   
-* Any acceptance is subject to the project host executing and delivering to the LF the executed project contribution agreement, and no public announcement will be made by AAIF of the acceptance of any project until governance for the project has been finalized and the contribution agreement duly executed and accepted by the LF.
+The detailed project proposal and acceptance process is presented in [project_proposal_process.md](https://github.com/aaif/technical-committee/blob/main/project_proposal_process.md).
 
 ---
 
 ## Stages: Definitions and Expectations
 
-Every AAIF project has an associated lifecycle stage. Proposed projects should state their preferred lifecycle stage. AAIF has Growth, Impact, and Emeritus lifecycle stages and new projects may enter the AAIF as either Growth or Impact based on meeting each stage’s requirements.
+Every AAIF project has an associated lifecycle stage. Proposed projects should state their preferred lifecycle stage. AAIF has Sandbox, Growth, Impact, and Emeritus lifecycle stages and new projects may enter the AAIF as Sandbox, Growth, or Impact based on meeting each stage’s requirements.
+
+## Sandbox Stage
+
+### Definition
+
+The Sandbox Stage is the entry point for early-stage projects that are technically viable but do not yet meet the Growth Stage's adoption and community bars. Sandbox lets the AAIF establish neutral governance early, before adoption patterns settle, without committing significant foundation resources. Sandbox status is not an endorsement, and every Sandbox project's README must state this explicitly.
+
+### Examples
+
+1. Protocols or reference implementations whose relevant adoption signal is whether others implement against them, before production patterns exist.
+2. Developer tools with strong early interest but not yet documented enterprise production adoption.
+3. Infrastructure or framework projects maintained by a credible team, where early neutral governance is more valuable than waiting for scale.
+
+### Expectations
+
+Sandbox projects receive standard infrastructure only (e.g. CI and access to enterprise infrastructure). They are not eligible for mentorship, funding, marketing, or security scanning at this stage. A TC sponsor conducts a checkpoint at six months. Projects are expected to apply for Growth within twelve months; otherwise the Technical Committee opens an Emeritus/archival discussion. Archival from Sandbox is a normal and healthy outcome, not a failure.
+
+### Acceptance Criteria
+
+To be considered for Sandbox Stage, the project must satisfy the following criteria:
+
+* Released under an OSI-approved permissive license.
+* Have a working implementation.
+* Have at least one actively committing maintainer, with documented intent to grow the contributor base.
+* Provide a short written thesis (1-2 pages) covering who would use the project, what would justify Growth graduation, and either documented early external interest or a credible argument for why the project matters pre-adoption.
+* Meet the standard AAIF requirements: transfer of project trademarks and other assets to the LF, and adoption of the LF technical charter.
+* Receive an absolute majority vote (\>50%) of the Technical Committee.
+* Governing Board approval is not required for Sandbox.
+
+### Graduation to Growth
+
+To graduate from Sandbox to Growth, a project must meet the Growth Stage acceptance criteria. In particular:
+
+* Adoption: documented production use by at least two unaffiliated organizations.
+* Community: commits from at least two organizations over the prior six months, named committers, and a documented committer-acceptance process.
+* Plan: a written growth plan accepted by a TC sponsor, including the project's own definition of Impact graduation.
+
+Graduation follows the standard process: an absolute majority vote (\>50%) of the Technical Committee, subject to final approval of the Governing Board.
 
 ## Growth Stage
 
@@ -105,12 +136,18 @@ To be considered for Growth Stage, the project must satisfy the following criter
 
 * Technical Committee sponsor to champion the project and provide mentorship.  
 * Presentation of a growth plan to demonstrate diverse maintainership, to be done in conjunction with their project mentor(s) at the Technical Committee.  
-* Document that it is being used successfully in production at a wide scale, and are in the Technical Committee’s judgment,  in quality and scope to the AAIF’s mission.  
+* Document production use by at least two unaffiliated organizations, with a credible plan to broaden adoption. The Technical Committee retains judgment on quality and scope relative to the AAIF’s mission.  
 * Demonstrate an appropriate ongoing flow of commits and merged contributions.  
 * Demonstrate that the current level of community participation is sufficient to meet the goals outlined in the growth plan.  
 * Receive an absolute majority vote (\>50%) of the Technical Committee to be admitted to Growth Stage, subject to final approval of the Governing Board.
 
 Since these metrics can vary significantly depending on a project's type, scope, and size, the Technical Committee has final judgment on the level of activity that is adequate to meet these criteria.
+
+### Graduation to Impact
+
+To graduate from Growth to Impact, a project must meet the Impact Stage acceptance criteria, and specifially that it has met the goals set out in its growth plan, and is operating self-sufficiently enough that a new growth plan is not required at Impact.
+
+Graduation follows the standard process: an absolute majority vote (>50%) of the Technical Committee, subject to final approval of the Governing Board.
 
 ## Impact Stage
 
