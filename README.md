@@ -54,6 +54,17 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
     </td>
   </tr>
 
+  <tr>
+    <td>
+      <a href="https://github.com/agentgateway/agentgateway">
+        <strong>agentgateway</strong>
+      </a>
+    </td>
+    <td>
+      One high-performance gateway for service, LLM, and MCP traffic.
+    </td>
+  </tr>
+
 </table>
 
 **Do you want to contribute to a project?** 
@@ -78,10 +89,10 @@ Join the public mailing list (*coming soon*).
 
 Join the public [AAIF Discord server](https://discord.com/invite/9zTwngHAMy). 
 
-## Working Groups
-The TC supports multiple technical working groups. **Working Groups are only open to AAIF members at this time.** Participants must be invited to join. 
+Need help? email: support@aaif.io.
 
-If someone from an AAIF member organization would like to join, please [sign up here](https://forms.gle/mqvEADnhCsmsvmC69) using your business email address.
+## Working Groups
+The TC supports multiple technical working groups. Working Groups are open to the public and cross-functional participation is actively encouraged. [View the full calendar of public meetings](https://zoom-lfx.platform.linuxfoundation.org/meetings/agentic-ai-foundation). 
 
 The current list of working groups are:
    - Accuracy & Reliability
@@ -91,5 +102,6 @@ The current list of working groups are:
    - Observability & Traceability
    - Security & Privacy
    - Workflows & Process Integration
+   - Taxonomy & Landscape (a Cross-Working Group Workstream)
 
 If you would like to propose a new working group, please create a new issue in our [Working Groups Proposal repository](https://github.com/aaif/working-group-proposals), and the Technical Committee will review your request. 
