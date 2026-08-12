@@ -18,7 +18,6 @@ All founding TC members were appointed by the AAIF Governing Board.
 Current term for TC Members is **March 1, 2026 - December 31, 2026**. 
 
 ## Projects
-
 <table>
   
   <tr>
@@ -28,15 +27,21 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
       </a>
     </td>
     <td>
+      Impact Stage
+    </td>
+    <td>
       An open protocol that enables seamless integration between LLM applications and external data sources and tools.
     </td>
   </tr>
 
   <tr>
     <td>
-      <a href="http://github.com/block/goose">
+      <a href="https://github.com/aaif-goose">
         <strong>goose</strong>
       </a>
+    </td>
+    <td>
+      Impact Stage
     </td>
     <td>
       An open source, extensible AI agent that goes beyond code suggestions. Install, execute, edit, and test with any LLM.
@@ -48,6 +53,9 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
       <a href="https://github.com/agentsmd">
         <strong>AGENTS.MD</strong>
       </a>
+    </td>
+     <td>
+      Impact Stage
     </td>
     <td>
       A dedicated, predictable place to provide the context and instructions to help AI coding agents work on your project.
@@ -61,9 +69,11 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
       </a>
     </td>
     <td>
+      Growth Stage
+    </td>
+    <td>
       One high-performance gateway for service, LLM, and MCP traffic.
     </td>
-  </tr>
 
 </table>
 
