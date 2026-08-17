@@ -99,8 +99,7 @@ To be considered for Sandbox Stage, the project must satisfy the following crite
 * Have at least one actively committing maintainer, with documented intent to grow the contributor base.
 * Provide a short written thesis (1-2 pages) covering who would use the project, what would justify Growth graduation, and either documented early external interest or a credible argument for why the project matters pre-adoption.
 * Meet the standard AAIF requirements: transfer of project trademarks and other assets to the LF, and adoption of the LF technical charter.
-* Receive an absolute majority vote (\>50%) of the Technical Committee.
-* Governing Board approval is not required for Sandbox.
+* Receive an absolute majority vote (\>50%) of the Technical Committee, subject to final approval of the Governing Board.
 
 ### Graduation to Growth
 
