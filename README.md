@@ -75,6 +75,19 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
       One high-performance gateway for service, LLM, and MCP traffic.
     </td>
 
+  <tr>
+    <td>
+      <a href="https://github.com/a2aproject">
+        <strong>Agent2Agent (A2A) </strong>
+      </a>
+    </td>
+    <td>
+      Growth Stage
+    </td>
+    <td>
+      An open standard for seamless communication and interoperability between AI agents
+    </td>
+
 </table>
 
 **Do you want to contribute to a project?** 
