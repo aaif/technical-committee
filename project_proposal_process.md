@@ -2,7 +2,8 @@
 
 *Operating procedure for the Agentic AI Foundation*
 
-**Version**: v0.2
+**Version**: v0.3
+**Effective Date**: August 28, 2026
 
 # **1\. Purpose**
 
@@ -24,8 +25,8 @@ A guiding principle of this process is that the Foundation guarantees a meaningf
 | 2\. TC Q\&A window | Technical Committee | Offline | Intake & review | TC notified email \+ Discord, further engagement via GH notifications on ticket. |
 | Presentation *(on demand only)* | Project submitter | Live | Intake & review | Scheduled via PMO, status reflected on ticket |
 | Contributor paperwork *(parallel)* | Project submitter | Offline | Parallel step | Scheduled via PMO, status reflected on ticket |
-| 3\. TC vote | Technical Committee | Offline | Voting gate (absolute majority) | Voted on using LFX Vote, outcome reflected on ticket |
-| 4\. GB approval | Governing Board | Offline | Voting gate (absolute majority) | Voted on using LFX Vote, outcome reflected on ticket |
+| 3\. TC vote | Technical Committee | Offline | Voting gate | Voted on using LFX Vote, outcome reflected on ticket |
+| 4\. GB approval | Governing Board | Offline | Voting gate | Voted on using LFX Vote, outcome reflected on ticket |
 | 5\. LF Legal formation | LF Legal / AAIF Staff | Offline | Legal & onboarding | Final paperwork sent via DocuSign to Submitter |
 | 6\. Technical onboarding | Project submitter / LF IT | Offline | Legal & onboarding |  |
 
@@ -48,8 +49,8 @@ The process is deliberately limited to a small set of actors. Each plays a defin
 | **Intake agent** | An automated agent that performs two functions on each new submission: a public technical compliance check (posted as a comment on the GitHub issue) and a private advisory review (delivered to the TC via a TC-only channel). Both outputs are advisory only; the CTO retains the final decision in Step 1 and the TC retains the final decision in Steps 2 and 3\. |
 | **TC chairs** | Provide input on submissions during Step 1 via comments on the GitHub issue. If the engagement bar in Step 2 is not met, the chairs seek a TC supporter willing to champion the project; if none can be found, the submission is rejected. |
 | **TC supporter**  *(on demand)* | A Technical Committee member appointed only when the Step 2 engagement bar has not been met. Represents the project within the TC, drives engagement on the GitHub issue, and champions the project through a restarted Q\&A window. If no TC member is willing to act as supporter, the submission is rejected. |
-| **Technical Committee** | Engages with submissions during the Step 2 Q\&A window on the GitHub issue, may request a live presentation, and votes on admission and initial lifecycle stage by absolute majority in Step 3\. |
-| **Governing Board** | Confirms organisational readiness and resource implications, and votes on admission by absolute majority. |
+| **Technical Committee** | Engages with submissions during the Step 2 Q\&A window on the GitHub issue, may request a live presentation, and votes on admission and initial lifecycle stage in Step 3\. |
+| **Governing Board** | Confirms organisational readiness and resource implications, and votes on admission. |
 | **LF PMO** | Coordinates intake and scheduling, runs the GitHub issue record, and liaises with LF Legal and LF IT. Coordinates project onboarding. |
 | **LF Legal** | Prepares and finalises the contribution agreement, technical charter, and trademark and asset transfers. |
 | **LF IT** | Assumes repository ownership and executes the technical onboarding of project infrastructure. |
@@ -156,7 +157,7 @@ If a project passes Step 1, , AAIF PMO will initiate the project formation works
 
 **Owner:** CTO and Technical Committee
 
-The TC conducts an asynchronous vote in LFX over seven days. The vote opens at the close of the Q\&A window if no presentation was requested, or immediately following the optional presentation if one was held. Admission requires an absolute majority of all TC members, and the vote includes a recommendation on the initial lifecycle stage (Growth or Impact).
+The TC conducts an asynchronous vote in LFX over seven days. The vote opens at the close of the Q\&A window if no presentation was requested, or immediately following the optional presentation if one was held. The vote includes a recommendation on the initial lifecycle stage (Sandbox, Growth, or Impact).
 
 The TC produces one of three outcomes:
 
@@ -169,7 +170,7 @@ The TC produces one of three outcomes:
 
 **Owner:** Governing Board
 
-Projects approved by the TC are referred to the Governing Board, which conducts an asynchronous vote over seven calendar days. The GB confirms organisational readiness, resource implications, and the Foundation's willingness to accept the project under the proposed terms and lifecycle stage. Approval requires an absolute majority.
+Projects approved by the TC are referred to the Governing Board, which conducts an asynchronous vote over seven calendar days. The GB confirms organisational readiness, resource implications, and the Foundation's willingness to accept the project under the proposed terms and lifecycle stage.
 
 Where the project repository runs CI on GitHub Actions or creates another recurring cost, the GB also confirms that AAIF is prepared to assume that obligation as part of its vote.
 
@@ -205,8 +206,8 @@ Admitted projects remain subject to the annual review process set out in the AAI
 A project is admitted to AAIF only when all five of the following are true:
 
 * The proposal meets the submission requirements in Section 4\.
-* The Technical Committee has approved the project by absolute majority.
-* The Governing Board has approved the project by absolute majority.
+* The Technical Committee has approved the project.
+* The Governing Board has approved the project.
 * Contributor paperwork, the contribution agreement, and the technical charter are executed, and required assets are transferred to the Linux Foundation.
 * Technical onboarding is complete.
 
