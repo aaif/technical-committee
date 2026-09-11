@@ -85,8 +85,21 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
       Growth Stage
     </td>
     <td>
-      An open standard for seamless communication and interoperability between AI agents
+      An open standard for seamless communication and interoperability between AI agents.
     </td>
+
+  <tr>
+    <td>
+      <a href="https://github.com/theagentrouter">
+        <strong>Agent Router</strong>
+      </a>
+    </td>
+    <td>
+      Growth Stage
+    </td>
+    <td>
+      The control plane for agent traffic.
+    </td>    
 
 </table>
 
