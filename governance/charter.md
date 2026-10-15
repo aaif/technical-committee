@@ -40,11 +40,10 @@ This Charter sets forth the purpose and operation of the Technical Committee (th
 
    2. Quorum for TC meetings requires at least fifty percent of the TC’s voting members to be present. The TC may continue to meet if a quorum is not met, but will be prevented from making any decisions requiring a vote at the meeting.
 
-   3. Decisions can be made via lazy consensus. Lazy consensus is a "silence-as-agreement" model in which a proposal is automatically approved if no formal objection from a TC voting member is recorded within 72 hours. If an objection is raised, decisions made by electronic vote without a meeting require a majority vote of all TC voting members.
+   3. Decisions can be made via lazy consensus. Lazy consensus is a "silence-as-agreement" model in which a proposal is automatically approved if no formal objection from a TC voting member is recorded within 7 days. If an objection is raised, decisions made by electronic vote without a meeting require a majority vote of all TC voting members.
 
    4. If a vote cannot be resolved by the TC, any TC voting member may refer the matter to the GB for assistance in reaching a resolution.
 
 4. **Amendments**
 
    1. This Charter may be amended at any time with the approval of two-thirds of the TC and the GB's approval, in accordance with the GB’s requirements.
-

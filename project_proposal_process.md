@@ -9,11 +9,11 @@
 
 This document describes how projects are proposed, reviewed, approved, and onboarded into the Agentic AI Foundation (AAIF).
 
-The [AAIF Project Lifecycle Policy](https://github.com/aaif/project-proposals/blob/main/governance/project-lifecycle-policy.md) remains the governing authority for lifecycle stages, admission criteria, and annual review. This procedure is the operating workflow that implements that policy.
+The [AAIF Project Lifecycle Policy](governance/project-lifecycle-policy.md) remains the governing authority for lifecycle stages, admission criteria, and annual review. This procedure is the operating workflow that implements that policy.
 
 # **2\. Process at a Glance**
 
-The process has six sequential steps, plus one parallel step that must be completed before the Technical Committee vote, and one optional on-demand sub-step (a live TC presentation, scheduled only if a TC member requests one).
+The process has six sequential steps, plus contributor paperwork prepared in parallel after initial intake and agreed, execution-ready, before the Governing Board vote (Step 4). A live TC presentation is an optional on-demand sub-step, scheduled only if a TC member requests one.
 
 Each step is also classified by its mode of execution - whether it happens live (e.g., in a meeting, on a video call) or offline (e.g., asynchronously via email, GitHub, or LFX voting tools). The process is deliberately designed to default to offline execution wherever possible, recognising that the Technical Committee is geographically distributed and that submission volume makes per-project live meetings expensive at the committee level.
 
@@ -23,14 +23,14 @@ A guiding principle of this process is that the Foundation guarantees a meaningf
 | :---- | :---- | :---- | :---- | :---- |
 | 1\. Initial intake | CTO (assisted by intake agent) | Offline | Intake & review | Notified via intake agent that conducts initial checks then alerts CTO \+ TC chairs via email \+ Discord. |
 | 2\. TC Q\&A window | Technical Committee | Offline | Intake & review | TC notified email \+ Discord, further engagement via GH notifications on ticket. |
-| Presentation *(on demand only)* | Project submitter | Live | Intake & review | Scheduled via PMO, status reflected on ticket |
+| Presentation *(on demand only)* | Project submitter | Live | Intake & review | Scheduled via PMO, status reflected on ticket |
 | Contributor paperwork *(parallel)* | Project submitter | Offline | Parallel step | Scheduled via PMO, status reflected on ticket |
 | 3\. TC vote | Technical Committee | Offline | Voting gate | Voted on using LFX Vote, outcome reflected on ticket |
-| 4\. GB approval | Governing Board | Offline | Voting gate | Voted on using LFX Vote, outcome reflected on ticket |
+| 4\. GB vote | Governing Board | Offline | Voting gate | Voted on using LFX Vote, outcome reflected on ticket |
 | 5\. LF Legal formation | LF Legal / AAIF Staff | Offline | Legal & onboarding | Final paperwork sent via DocuSign to Submitter |
 | 6\. Technical onboarding | Project submitter / LF IT | Offline | Legal & onboarding |  |
 
-![][image1]
+[![AAIF project proposal flowchart showing six steps, review and approval gates, and parallel contributor paperwork.][image1]](project_proposal_process.svg)
 
 ## **2.1. Automation**
 
@@ -46,7 +46,7 @@ The process is deliberately limited to a small set of actors. Each plays a defin
 | :---- | :---- |
 | **Project submitter** | Files the proposal, responds to TC questions on the GitHub issue during Step 2, presents to the TC if a presentation is requested, completes contributor paperwork, and executes technical onboarding. |
 | **CTO** | Owns Step 1: screens submissions for completeness and fit, conducts the smoke test (assisted by the intake agent), gathers TC chair input via the GitHub issue, and prepares the TC brief. Approves Q\&A window extensions in Step 2, and triggers the on-demand TC supporter mechanism if the engagement bar is not met. |
-| **Intake agent** | An automated agent that performs two functions on each new submission: a public technical compliance check (posted as a comment on the GitHub issue) and a private advisory review (delivered to the TC via a TC-only channel). Both outputs are advisory only; the CTO retains the final decision in Step 1 and the TC retains the final decision in Steps 2 and 3\. |
+| **Intake agent** | An automated agent that performs technical compliance checks on each new submission. |
 | **TC chairs** | Provide input on submissions during Step 1 via comments on the GitHub issue. If the engagement bar in Step 2 is not met, the chairs seek a TC supporter willing to champion the project; if none can be found, the submission is rejected. |
 | **TC supporter**  *(on demand)* | A Technical Committee member appointed only when the Step 2 engagement bar has not been met. Represents the project within the TC, drives engagement on the GitHub issue, and champions the project through a restarted Q\&A window. If no TC member is willing to act as supporter, the submission is rejected. |
 | **Technical Committee** | Engages with submissions during the Step 2 Q\&A window on the GitHub issue, may request a live presentation, and votes on admission and initial lifecycle stage in Step 3\. |
@@ -64,7 +64,7 @@ Proposals are submitted as a GitHub issue in the AAIF [project proposals reposit
 * Governance model, maintainers, and decision-making process.
 * Evidence of adoption, external dependencies, and any infrastructure needs.
 * Official communication channels, website, and any social accounts.
-* Preferred initial lifecycle stage (Growth or Impact) per the AAIF Project Lifecycle Policy.
+* Preferred initial lifecycle stage per the [AAIF Project Lifecycle Policy](governance/project-lifecycle-policy.md), if known (optional).
 
 # **5\. The Process**
 
@@ -79,23 +79,15 @@ The smoke test covers:
 * Completeness against the submission requirements in Section 4\.
 * High-level fit with the AAIF mission and scope.
 * Obvious red flags around licensing, governance, or community health.
-* Whether the proposed lifecycle stage (Growth or Impact) appears defensible at first glance.
+* Whether the proposed lifecycle stage appears defensible at first glance.
 
 ### **Intake agent**
 
 The smoke test is supported by an automated intake agent. The agent performs two distinct functions on each new submission, with different audiences and different visibility:
 
-**Technical compliance check (public)**
+**Technical compliance check**
 
-On submission of a new GitHub issue, the agent performs a mechanical compliance check against the submission requirements in Section 4 - verifying that all required fields are present, that the licence is OSI-approved or a recognised open specification, that linked repositories and issue trackers resolve, and that other structural requirements are met. The agent posts the results of this check as a comment on the GitHub issue, visible to the submitter and to anyone reading the issue. Submitters are encouraged to address any flagged gaps before the CTO completes the smoke test. This part of the agent's output is deliberately public so that the submitter has clear, actionable feedback on what to fix.
-
-**Advisory review (private to the TC)**
-
-Separately, the agent produces a subjective advisory review covering its assessment of mission alignment, governance maturity, the credibility of adoption evidence, community-health signals, and any concerns it would flag for the wider Technical Committee. This review is not posted on the public GitHub issue. It is delivered through a TC-only channel - either a private TC repository, an LFX-managed discussion, or another mechanism agreed by the TC - and is visible only to TC members and AAIF Staff.
-
-The advisory review is kept private for two reasons. First, it is judgment-laden rather than mechanical, and exposing it to the submitter would create friction over an opinion the submitter cannot meaningfully respond to in the same way they can to a missing-field check. Second, a public advisory review would become a gameable target - submitters would tune proposals to satisfy the agent rather than the TC. The advisory review exists to give the TC an additional perspective ahead of the Step 2 Q\&A window, not to score the submission.
-
-In both functions, the agent's output is advisory only - the CTO retains the final decision in Step 1, and the TC retains the final decision in Steps 2 and 3\. The agent does not vote and does not gate the process.
+On submission of a new GitHub issue, the agent performs a mechanical compliance check against the submission requirements in Section 4 - verifying that all required fields are present, that the licence is OSI-approved or a recognised open specification, that linked repositories and issue trackers resolve, and that other structural requirements are met. The agent posts the results of this check as a comment on the GitHub issue, visible to the submitter and to anyone reading the issue. Submitters are encouraged to address any flagged gaps before the CTO completes the smoke test. This is so that the submitter has clear, actionable feedback on what to fix.
 
 ### **TC chair input**
 
@@ -113,7 +105,7 @@ The smoke test is intentionally not a substitute for the TC's review in Step 2 o
 
 **Owner:** Technical Committee    **Mode:** Offline (GitHub issue)
 
-Once the CTO has posted the Step 1 brief on the GitHub issue, a fixed Q\&A window. During this window, any TC member may ask questions on the issue, and the project submitter responds in-thread. The Q\&A thread becomes the durable record of the committee's review of the proposal.
+Once the CTO has posted the Step 1 brief on the GitHub issue, a fixed Q\&A window opens. During this window, any TC member may ask questions on the issue, and the project submitter responds in-thread. The Q\&A thread becomes the durable record of the committee's review of the proposal.
 
 ### **The engagement bar**
 
@@ -143,7 +135,7 @@ If the engagement bar is not met by the close of the Q\&A window (including any 
 
 If a supporter is found, they are named in the GitHub issue and the Q\&A window restarts under their stewardship. The engagement-bar and presentation rules above apply again to the restarted window.
 
-If no TC member is willing to act as supporter, the CTO closes the GitHub issue with a documented rationale and the submission is treated as rejected. The submitter may reapply after three months under the same conditions as a Step 3 rejection. The absence of a willing supporter is itself a meaningful signal: if not one of TC members will champion the project after a full Q\&A window, that is a clear indication the project is not ready for AAIF or is a poor fit for the Foundation.
+If no TC member is willing to act as supporter, the CTO closes the GitHub issue with a documented rationale and the submission is treated as rejected. The submitter may reapply after three months under the same conditions as a Step 3 rejection. The absence of a willing supporter is itself a meaningful signal: if not one TC member will champion the project after a full Q\&A window, that is a clear indication the project is not ready for AAIF or is a poor fit for the Foundation.
 
 This on-demand mechanism is preferred over a default requirement that every project have a TC supporter named up front. The role exists as a remediation mechanism for low-engagement submissions rather than as a coordination cost paid on every submission.
 
@@ -151,28 +143,29 @@ This on-demand mechanism is preferred over a default requirement that every proj
 
 **Owner:** Project submitter, supported by AAIF PMO
 
-If a project passes Step 1, , AAIF PMO will initiate the project formation workstream with LF Legal in parallel with Step 2\. A draft contribution agreement and technical charter are prepared and shared with the submitter and their legal counsel for review. The submitter must return agreed documents, execution-ready, before the GB vote opens in Step 5\. This avoids delays later in the process and gives the GB confidence that a yes vote leads directly to execution.
+If a project passes Step 1, AAIF PMO will initiate the project formation workstream with LF Legal in parallel with Step 2\. A draft contribution agreement and technical charter are prepared and shared with the submitter and their legal counsel for review. The submitter must return agreed documents, execution-ready, before the GB vote opens in Step 4\. This avoids delays later in the process and gives the GB confidence that a yes vote leads directly to execution.
 
 ## **Step 3 - TC vote**
 
 **Owner:** CTO and Technical Committee
 
-The TC conducts an asynchronous vote in LFX over seven days. The vote opens at the close of the Q\&A window if no presentation was requested, or immediately following the optional presentation if one was held. The vote includes a recommendation on the initial lifecycle stage (Sandbox, Growth, or Impact).
+The TC conducts an asynchronous vote in LFX over seven days. The vote opens at the close of the Q\&A window if no presentation was requested, or immediately following the optional presentation if one was held. The vote includes a recommendation on the initial lifecycle stage of Sandbox, Growth, or Impact.
 
-The TC produces one of three outcomes:
+The TC produces one of the following outcomes:
 
 * Approval for referral to the Governing Board.
 * Conditional approval identifying specific items that must be resolved before the project is treated as admitted.
 * Rejection with a documented rationale. A rejected submitter may reapply after three months, provided meaningful improvements have been made.
-* CTO updates the submission accordingly. 
+
+The CTO updates the submission accordingly. 
 
 ## **Step 4 - GB vote**
 
 **Owner:** Governing Board
 
-Projects approved by the TC are referred to the Governing Board, which conducts an asynchronous vote over seven calendar days. The GB confirms organisational readiness, resource implications, and the Foundation's willingness to accept the project under the proposed terms and lifecycle stage.
+Projects approved by the TC are referred to the Governing Board for an asynchronous vote, in line with policies set out in the AAIF's charter. The GB confirms organisational readiness, resource implications, and the Foundation's willingness to accept the project under the proposed terms and lifecycle stage.
 
-Where the project repository runs CI on GitHub Actions or creates another recurring cost, the GB also confirms that AAIF is prepared to assume that obligation as part of its vote.
+The GB also confirms that AAIF is prepared to assume cost obligations related to build and test resources for the project, if any, as part of its vote.
 
 ## **Step 5 - Finalise Legal Paperwork**
 
@@ -184,7 +177,7 @@ Following GB approval, LF Legal, LF PMO, and Project Submitter execute the contr
 
 **Owner:** Project submitter, LF IT, and LF PMO
 
-Within four weeks of execution of the contribution agreement, the submitter,LF IT, and LF PMO complete the following:
+Within four weeks of execution of the contribution agreement, the submitter, LF IT, and LF PMO complete the following:
 
 * Implement the approved governance structure in the project repository (GOVERNANCE.md and technical charter).
 * Transfer GitHub repository ownership to the Linux Foundation, or grant LF IT administrative control, and migrate into LF-managed infrastructure where required.
@@ -196,10 +189,11 @@ The GitHub issue is closed as Approved once onboarding is complete.
 
 Every admitted project is assigned an initial lifecycle stage. The TC recommends the stage as part of its vote, and the GB confirms it on approval.
 
-* **Growth** - for projects that show clear promise but still need mentorship, governance maturation, or contributor growth.
+* **Sandbox** - for projects that have early momentum and community adoption or fulfill an identified need, but do not meet Growth's bars.
+* **Growth** - for projects that show clear promise with early production deployment and maintainer commitment from more than one entity with an established release cadence, but lack signal that shows broad production deployment and mature multi-stakeholder maintainership.
 * **Impact** - for projects that already demonstrate substantial adoption, durable governance, diverse maintainership, and an established release cadence.
 
-Admitted projects remain subject to the annual review process set out in the AAIF Project Lifecycle Policy.
+Admitted projects remain subject to the annual review process set out in the [AAIF Project Lifecycle Policy](governance/project-lifecycle-policy.md).
 
 # **7\. The Approval Gate**
 

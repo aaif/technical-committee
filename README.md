@@ -2,6 +2,16 @@
 
 The AAIF Technical Committee (TC) is the technical governing body of the Agentic AI Foundation. It oversees technical standards, best practices, and technical vision for the Foundation. This repo contains meeting details, working groups project information, and process documents for the AAIF TC. For more information, review the [Technical Charter](governance/charter.md).
 
+## Governance and Processes
+
+This repository maintains the authoritative technical governance policies and operating procedures:
+
+* [Technical Charter](governance/charter.md) - the TC's purpose, composition, responsibilities, and voting rules.
+* [Project Lifecycle Policy](governance/project-lifecycle-policy.md) - project stages, admission criteria, and ongoing reviews.
+* [Project Proposal Process](project_proposal_process.md) - project review, voting, legal paperwork, and onboarding.
+* [Working Group Lifecycle Policy](working-groups/lifecycle-policy.md) - working group proposals, charters, leadership, renewal, and conclusion.
+* [Working Group Monthly Reporting](working-groups/reporting.md) - reporting requirements and the review process.
+
 ## Members
 
 * **Alan Blount [@zeroasterisk](https://github.com/zeroasterisk)** - Google
@@ -18,6 +28,7 @@ All founding TC members were appointed by the AAIF Governing Board.
 Current term for TC Members is **March 1, 2026 - December 31, 2026**. 
 
 ## Projects
+
 <table>
   
   <tr>
@@ -103,17 +114,15 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
 
 </table>
 
-**Do you want to contribute to a project?** 
+**Do you want to contribute to an existing project?**
+Refer to the project's GitHub repository, where you will find a `CONTRIBUTING.md` file containing instructions on how to contribute to that project.
 
-Create an issue in our [Project Proposals repository](https://github.com/aaif/project-proposals/tree/main) and the Technical Committee will review your request. 
-
-If you would like to know more about the project lifecycle we use, review our [Project Lifecycle Policy](https://github.com/aaif/technical-committee/blob/main/governance/project-lifecycle-policy.md).
+**Do you want to contribute your project to the AAIF?**
+Review the [Project Lifecycle Policy](governance/project-lifecycle-policy.md) and [Project Proposal Process](project_proposal_process.md), then follow the application instructions in the [Project Proposals repository](https://github.com/aaif/project-proposals).
 
 ## Meetings
 
-The TC meets biweekly on Tuesdays at 1:00PM PT (USA Pacific Time; [Convert to local time zone](http://www.thetimezoneconverter.com/?t=8:00AM&tz=San%20Francisco)).  
-
-The TC is currently still formalizing its governance and policies. Once established, the TC meetings will open to the public. 
+The TC meets biweekly.  The TC is currently still formalizing its governance and policies. Once established, the TC meetings will open to the public.
 
 ## Meeting Agenda and Minutes
 
@@ -140,4 +149,4 @@ The current list of working groups are:
    - Workflows & Process Integration
    - Taxonomy & Landscape (a Cross-Working Group Workstream)
 
-If you would like to propose a new working group, please create a new issue in our [Working Groups Proposal repository](https://github.com/aaif/working-group-proposals), and the Technical Committee will review your request. 
+If you would like to propose a new working group, please create a new issue in our [Working Groups Proposal repository](https://github.com/aaif/working-group-proposals), and the Technical Committee will review your request.

@@ -1,12 +1,13 @@
 # **Agentic AI Foundation Project Lifecycle Policy**
-**Effective: March 18, 2026**
+**First created : 2026-03-18**
+**Updated: 2026-10-15**
 
 ---
 
 - ## Table of Contents
 
 - [Overview](#overview)
-- [Project Proposal Process](#project-proposal-process)
+- [Project Proposal Process](#project-proposal-process-overview)
 - [Stages: Definitions and Expectations](#stages-definitions-and-expectations)
 - [Annual Review Process](#annual-review-process)
 
@@ -16,7 +17,7 @@
 
 This governance policy describes how an open technical project can formally join the Agentic AI Foundation (“AAIF”) via the Project Proposal Process. It describes the Stages a project may be admitted to and the criteria and expectations for each stage, as well as the acceptance criteria for a project to move from one stage to another. It also describes the Annual Review Process through which those changes will be evaluated and made. 
 
-Project progression \- movement from one stage to another \- allows projects to participate at the level that is most appropriate for them, given where they are in their lifecycle. Regardless of stage, all AAIF projects benefit from a deepened alignment with existing projects and access to mentorship, support, and foundation resources.
+Project progression \- movement from one stage to another \- allows projects to participate at the level that is most appropriate for them, given where they are in their lifecycle. Regardless of stage, all AAIF projects benefit from a deepened alignment with existing projects. Support, mentorship and resources vary by lifecycle stage. 
 
 Capitalized terms not otherwise defined in this Project Lifecycle Policy have the meanings ascribed to them in the Charter of the AAIF.
 
@@ -144,9 +145,9 @@ Since these metrics can vary significantly depending on a project's type, scope,
 
 ### Graduation to Impact
 
-To graduate from Growth to Impact, a project must meet the Impact Stage acceptance criteria, and specifially that it has met the goals set out in its growth plan, and is operating self-sufficiently enough that a new growth plan is not required at Impact.
+To graduate from Growth to Impact, a project must meet the Impact Stage acceptance criteria, and specifically that it has met the goals set out in its growth plan, and is operating self-sufficiently enough that a new growth plan is not required at Impact.
 
-Graduation follows the standard process: an absolute majority vote (>50%) of the Technical Committee, subject to final approval of the Governing Board.
+Graduation follows the standard process: an absolute majority vote of the Technical Committee, subject to final approval of the Governing Board.
 
 ## Impact Stage
 
@@ -183,20 +184,20 @@ To graduate from Growth status, or for a new project to join as an Impact projec
 
 ### Definition
 
-Emeritus projects are projects which the TC or maintainers feel have reached end-of-life. Emeritus projects no longer meet the criteria for a Growth or Impact projects, for instance they may have few or no recent releases, few or no commits, the community may have left the project, core maintainers may have left or the project may have been abandoned entirely.  
+Emeritus projects are projects which the TC or maintainers feel have reached end-of-life. Emeritus projects no longer meet the criteria for Growth or Impact projects, for instance they may have few or no recent releases, few or no commits, the community may have left the project, core maintainers may have left or the project may have been abandoned entirely.  
 
 ### Examples
 
-1. Projects that are are no longer maintained.  
+1. Projects that are no longer maintained.  
 2. Projects that do not plan to release major versions in the future.
 
 ### Expectations
 
-Projects in this stage are have little to no activity. Their maintainers may infrequently monitor their repositories and may only push updates to address security issues, if at all. Emeritus projects should clearly state their status in their repo’s README.md and what users or contributors can expect regarding response times or support. If there is an alternative project the maintainers recommend, it should be listed as well. The foundation will continue to hold the IP and any trademarks and domains, but the project does not draw on foundation resources. 
+Projects in this stage have little to no activity. Their maintainers may infrequently monitor their repositories and may only push updates to address security issues, if at all. Emeritus projects should clearly state their status in their repo’s README.md and what users or contributors can expect regarding response times or support. If there is an alternative project the maintainers recommend, it should be listed as well. The foundation will continue to hold the IP and any trademarks and domains, but the project does not draw on foundation resources. 
 
 ### Acceptance Criteria
 
-Projects may be transitioned to Emeritus status via an absolute majority vote (\>50%) from the Technical Committee or with approval from the Governing Board.
+Projects may be transitioned to Emeritus status via an absolute majority vote from the Technical Committee subject to Governing Board approval.
 
 ---
 
