@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2588" viewBox="0 0 1600 2588" role="img" aria-labelledby="title description">
+  <title id="title">AAIF project proposal process</title>
+  <desc id="description">Six numbered steps: initial intake, Technical Committee question-and-answer review, Technical Committee vote, Governing Board vote, legal execution, and technical onboarding. At least four TC members must acknowledge a proposal before voting; an assigned supporter does not count. Insufficient engagement triggers a search for a supporter and a restarted review, or rejection if none is found. A requested presentation must take place before the TC vote. Contributor paperwork begins after intake, runs in parallel, and must be agreed and execution-ready before the GB vote. Signatures follow GB approval. Admission and announcements wait until all admission conditions are satisfied.</desc>
+  <!-- Editable source for the PNG. Render with rsvg-convert at a width of 2400 pixels. -->
+  <defs>
+    <filter id="shadow" x="-15%" y="-25%" width="130%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#182d4b" flood-opacity="0.06"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9 Z" fill="#8493a8"/>
+    </marker>
+    <marker id="parallel-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9 Z" fill="#64748b"/>
+    </marker>
+    <marker id="rejection-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9 Z" fill="#c27480"/>
+    </marker>
+    <style>
+      text { font-family: "Avenir Next", Inter, "Segoe UI", sans-serif; fill: #182d4b; }
+      .eyebrow { font-size: 17px; font-weight: 700; letter-spacing: 2px; fill: #536dc5; }
+      .title { font-size: 44px; font-weight: 700; letter-spacing: -1px; }
+      .subtitle { font-size: 22px; fill: #5c6b80; }
+      .legend { font-size: 18px; font-weight: 600; }
+      .column-label { font-size: 15px; font-weight: 700; letter-spacing: 1.5px; fill: #778499; }
+      .card-title { font-size: 25px; font-weight: 700; }
+      .body { font-size: 19px; }
+      .small { font-size: 17px; fill: #5c6b80; }
+      .owner { font-size: 17px; font-weight: 600; fill: #5c6b80; }
+      .number { font-size: 21px; font-weight: 700; fill: white; text-anchor: middle; }
+      .decision-title { font-size: 22px; font-weight: 700; text-anchor: middle; }
+      .decision-detail { font-size: 18px; fill: #806126; text-anchor: middle; }
+      .edge-label { font-size: 17px; font-weight: 600; fill: #5c6b80; }
+      .red-label { font-size: 17px; font-weight: 600; fill: #b45867; }
+      .review-card { fill: white; stroke: #cdd8f1; stroke-width: 1.5; filter: url(#shadow); }
+      .vote-card { fill: #fffcf3; stroke: #e9d5a3; stroke-width: 1.5; filter: url(#shadow); }
+      .delivery-card { fill: #f3fbf8; stroke: #badfd2; stroke-width: 1.5; filter: url(#shadow); }
+      .decision { fill: #fff8e8; stroke: #e2c987; stroke-width: 1.5; }
+      .flow { fill: none; stroke: #8493a8; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#arrow); }
+      .parallel { fill: none; stroke: #64748b; stroke-width: 2.5; stroke-dasharray: 7 7; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#parallel-arrow); }
+      .rejected { fill: none; stroke: #c27480; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#rejection-arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="2588" fill="#f7f9fc"/>
+  <rect x="510" y="210" width="560" height="2175" rx="36" fill="#eef3fa"/>
+
+  <text x="64" y="66" class="eyebrow">AGENTIC AI FOUNDATION / GOVERNANCE</text>
+  <text x="64" y="124" class="title">From proposal to admitted project</text>
+  <text x="64" y="165" class="subtitle">An asynchronous-first process, with explicit review and approval gates.</text>
+
+  <g transform="translate(64 202)">
+    <circle cx="8" cy="0" r="7" fill="#536dc5"/>
+    <text x="26" y="6" class="legend">Intake &amp; review</text>
+    <circle cx="260" cy="0" r="7" fill="#bb8730"/>
+    <text x="278" y="6" class="legend">Decision gate</text>
+    <circle cx="495" cy="0" r="7" fill="#178472"/>
+    <text x="513" y="6" class="legend">Legal &amp; onboarding</text>
+    <path d="M 795 0 H 838" stroke="#64748b" stroke-width="2.5" stroke-dasharray="7 7"/>
+    <text x="852" y="6" class="legend">Parallel work</text>
+  </g>
+
+  <text x="60" y="320" class="column-label">EXCEPTIONS &amp; OPTIONAL STEPS</text>
+  <text x="550" y="320" class="column-label">PRIMARY PATH</text>
+  <text x="1180" y="320" class="column-label">PARALLEL WORKSTREAM</text>
+
+  <!-- Connectors are drawn first so that cards mask their endpoints cleanly. -->
+  <path class="flow" d="M 790 295 V 350"/>
+  <path class="flow" d="M 790 480 V 540"/>
+  <path d="M 550 415 H 420" fill="none" stroke="#b5c0d0" stroke-width="2"/>
+  <path class="parallel" d="M 790 505 H 1360 V 540"/>
+  <circle cx="790" cy="505" r="5" fill="#64748b"/>
+  <path class="flow" d="M 790 670 V 705"/>
+  <path class="flow" d="M 600 805 H 410"/>
+  <path class="flow" d="M 240 705 V 605 H 550"/>
+  <path class="rejected" d="M 240 905 V 930"/>
+  <path class="flow" d="M 790 905 V 930"/>
+  <path class="flow" d="M 600 1005 H 470 V 1125 H 420"/>
+  <path class="flow" d="M 790 1080 V 1170"/>
+  <path class="flow" d="M 240 1190 V 1235 H 550"/>
+  <path class="flow" d="M 790 1310 V 1350"/>
+  <path class="parallel" d="M 1360 825 V 1385 H 1030"/>
+  <path class="flow" d="M 790 1420 V 1470"/>
+  <path class="rejected" d="M 650 1310 V 1330 H 450 V 1420 H 420"/>
+  <path class="rejected" d="M 550 1535 H 470 V 1460 H 420"/>
+  <path class="flow" d="M 790 1600 V 1670"/>
+  <path class="flow" d="M 790 1820 V 1870"/>
+  <path class="flow" d="M 790 2000 V 2025"/>
+  <path class="flow" d="M 1020 2120 H 1180"/>
+  <path class="flow" d="M 1360 2070 V 2018 H 790 V 2025"/>
+  <path class="flow" d="M 790 2215 V 2260"/>
+
+  <g>
+    <rect x="580" y="235" width="420" height="60" rx="30" fill="#e6ecff" stroke="#c7d2f1" stroke-width="1.5"/>
+    <circle cx="619" cy="265" r="11" fill="none" stroke="#536dc5" stroke-width="2"/>
+    <path d="M 614 265 L 618 269 L 625 261" fill="none" stroke="#536dc5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="652" y="273" class="body" font-weight="600">Submit proposal as a GitHub issue</text>
+  </g>
+
+  <g>
+    <rect x="550" y="350" width="480" height="130" rx="18" class="review-card"/>
+    <circle cx="588" cy="388" r="19" fill="#536dc5"/>
+    <text x="588" y="395" class="number">1</text>
+    <text x="622" y="396" class="card-title">Initial intake</text>
+    <text x="578" y="431" class="owner">CTO, intake agent &amp; TC chairs</text>
+    <text x="578" y="459" class="body">Completeness, mission fit &amp; lifecycle criteria</text>
+  </g>
+
+  <g>
+    <rect x="60" y="350" width="360" height="130" rx="16" fill="white" stroke="#dce3ed" stroke-width="1.5"/>
+    <text x="82" y="386" class="card-title" style="font-size:22px">Clarify or close</text>
+    <text x="82" y="421" class="small">Incomplete: request clarification.</text>
+    <text x="82" y="450" class="small">Out of scope: close with feedback.</text>
+  </g>
+
+  <g>
+    <rect x="550" y="540" width="480" height="130" rx="18" class="review-card"/>
+    <circle cx="588" cy="578" r="19" fill="#536dc5"/>
+    <text x="588" y="585" class="number">2</text>
+    <text x="622" y="586" class="card-title">TC Q&amp;A window</text>
+    <text x="578" y="621" class="owner">Technical Committee &amp; submitter</text>
+    <text x="578" y="649" class="body">Questions and responses on the GitHub issue</text>
+  </g>
+
+  <g>
+    <rect x="1180" y="540" width="360" height="285" rx="18" fill="#f0f3f8" stroke="#aebdce" stroke-width="1.5" stroke-dasharray="7 6"/>
+    <text x="1204" y="576" class="eyebrow" style="font-size:14px;fill:#64748b">STARTS AFTER INTAKE</text>
+    <text x="1204" y="613" class="card-title" style="font-size:23px">Contributor paperwork</text>
+    <text x="1204" y="645" class="owner">Submitter, PMO &amp; LF Legal</text>
+    <text x="1204" y="686" class="body">Draft contribution agreement</text>
+    <text x="1204" y="714" class="body">and technical charter.</text>
+    <text x="1204" y="755" class="body" font-weight="600">Agree execution-ready terms</text>
+    <text x="1204" y="783" class="body" font-weight="600">before Step 4 (GB vote).</text>
+    <text x="1204" y="808" class="small">Signing follows GB approval.</text>
+  </g>
+
+  <g>
+    <path d="M 790 705 L 980 805 L 790 905 L 600 805 Z" class="decision"/>
+    <text x="790" y="785" class="decision-title">Engagement bar met?</text>
+    <text x="790" y="816" class="decision-detail">At least 4 TC acknowledgments</text>
+    <text x="790" y="843" class="decision-detail">Supporter excluded</text>
+  </g>
+  <text x="493" y="791" class="edge-label">No</text>
+  <text x="808" y="923" class="edge-label">Yes</text>
+
+  <g>
+    <path d="M 240 705 L 410 805 L 240 905 L 70 805 Z" class="decision"/>
+    <text x="240" y="790" class="decision-title">Supporter available?</text>
+    <text x="240" y="826" class="decision-detail">Chairs seek a TC member</text>
+    <text x="240" y="852" class="decision-detail">to restart review</text>
+  </g>
+  <text x="276" y="586" class="edge-label">Yes / restart Q&amp;A</text>
+  <text x="257" y="923" class="red-label">No</text>
+
+  <g>
+    <rect x="60" y="930" width="360" height="80" rx="18" fill="#fff0f2" stroke="#e6b6be" stroke-width="1.5"/>
+    <text x="240" y="964" class="decision-title" style="fill:#a94d5d">Rejected</text>
+    <text x="240" y="992" class="small" text-anchor="middle">No willing supporter; record rationale.</text>
+  </g>
+
+  <g>
+    <path d="M 790 930 L 980 1005 L 790 1080 L 600 1005 Z" class="decision"/>
+    <text x="790" y="998" class="decision-title">Live presentation</text>
+    <text x="790" y="1029" class="decision-title">requested?</text>
+  </g>
+  <text x="514" y="990" class="edge-label">Yes</text>
+  <text x="808" y="1128" class="edge-label">No</text>
+
+  <g>
+    <rect x="60" y="1060" width="360" height="130" rx="18" class="review-card"/>
+    <text x="84" y="1098" class="card-title" style="font-size:23px">Optional presentation</text>
+    <text x="84" y="1130" class="owner">Submitter &amp; Technical Committee</text>
+    <text x="84" y="1160" class="small">Live, at the next scheduled TC meeting</text>
+    <text x="240" y="1262" class="edge-label" text-anchor="middle">Presentation held</text>
+  </g>
+
+  <g>
+    <rect x="550" y="1170" width="480" height="140" rx="18" class="vote-card"/>
+    <circle cx="588" cy="1208" r="19" fill="#b5822f"/>
+    <text x="588" y="1215" class="number">3</text>
+    <text x="622" y="1216" class="card-title">TC Vote</text>
+    <text x="578" y="1253" class="owner">CTO &amp; Technical Committee</text>
+    <text x="578" y="1283" class="body">Recommend Sandbox, Growth or Impact</text>
+  </g>
+  <text x="806" y="1336" class="edge-label">Refer to GB</text>
+  <text x="488" y="1319" class="red-label">Reject</text>
+
+  <g>
+    <rect x="550" y="1350" width="480" height="70" rx="14" fill="white" stroke="#bdcadb" stroke-width="1.5"/>
+    <text x="790" y="1377" class="column-label" text-anchor="middle" style="font-size:13px">BOTH REQUIRED TO OPEN THE GB VOTE</text>
+    <text x="790" y="1403" class="body" text-anchor="middle" font-weight="600" style="font-size:18px">TC referral + execution-ready paperwork</text>
+  </g>
+  <text x="1160" y="1366" class="edge-label">Documents agreed</text>
+
+  <g>
+    <rect x="550" y="1470" width="480" height="130" rx="18" class="vote-card"/>
+    <circle cx="588" cy="1508" r="19" fill="#b5822f"/>
+    <text x="588" y="1515" class="number">4</text>
+    <text x="622" y="1516" class="card-title">GB Vote</text>
+    <text x="578" y="1551" class="owner">Governing Board</text>
+    <text x="578" y="1579" class="body">Confirm readiness, resources &amp; initial stage</text>
+  </g>
+  <text x="410" y="1558" class="red-label">Reject</text>
+  <text x="808" y="1641" class="edge-label">Approve</text>
+
+  <g>
+    <rect x="60" y="1370" width="360" height="120" rx="18" fill="#fff0f2" stroke="#e6b6be" stroke-width="1.5"/>
+    <text x="240" y="1411" class="decision-title" style="fill:#a94d5d">Rejected</text>
+    <text x="240" y="1446" class="body" text-anchor="middle">Record the decision and rationale</text>
+    <text x="240" y="1474" class="small" text-anchor="middle">on the proposal's GitHub issue.</text>
+  </g>
+
+  <g>
+    <rect x="550" y="1670" width="480" height="150" rx="18" class="delivery-card"/>
+    <circle cx="588" cy="1708" r="19" fill="#178472"/>
+    <text x="588" y="1715" class="number">5</text>
+    <text x="622" y="1716" class="card-title">Finalise legal paperwork</text>
+    <text x="578" y="1753" class="owner">LF Legal, submitter &amp; PMO</text>
+    <text x="578" y="1781" class="body">Execute agreements; transfer required assets.</text>
+    <text x="578" y="1802" class="small">1 week to sign after GB approval, or offer rescinded.</text>
+  </g>
+  <text x="808" y="1847" class="edge-label">Executed</text>
+
+  <g>
+    <rect x="550" y="1870" width="480" height="130" rx="18" class="delivery-card"/>
+    <circle cx="588" cy="1908" r="19" fill="#178472"/>
+    <text x="588" y="1915" class="number">6</text>
+    <text x="622" y="1916" class="card-title">Technical onboarding</text>
+    <text x="578" y="1951" class="owner">Submitter, LF IT &amp; PMO</text>
+    <text x="578" y="1979" class="body">Complete within 4 weeks of agreement execution</text>
+  </g>
+
+  <g>
+    <path d="M 790 2025 L 1020 2120 L 790 2215 L 560 2120 Z" class="decision"/>
+    <text x="790" y="2110" class="decision-title">All admission conditions met?</text>
+    <text x="790" y="2141" class="decision-detail">Including any TC approval conditions</text>
+    <text x="790" y="2168" class="decision-detail">No announcement yet</text>
+  </g>
+  <text x="1081" y="2104" class="edge-label">No</text>
+  <text x="808" y="2245" class="edge-label">Yes</text>
+
+  <g>
+    <rect x="1180" y="2070" width="360" height="110" rx="16" fill="white" stroke="#dce3ed" stroke-width="1.5"/>
+    <text x="1204" y="2106" class="card-title" style="font-size:22px">Resolve outstanding items</text>
+    <text x="1204" y="2139" class="small">Complete conditions, asset transfers</text>
+    <text x="1204" y="2166" class="small">or any remaining onboarding work.</text>
+  </g>
+
+  <g>
+    <rect x="550" y="2260" width="480" height="100" rx="24" fill="#117968"/>
+    <circle cx="595" cy="2308" r="17" fill="none" stroke="#bce9da" stroke-width="2"/>
+    <path d="M 586 2308 L 592 2314 L 604 2301" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="632" y="2306" class="card-title" style="fill:white">Admitted to AAIF</text>
+    <text x="790" y="2340" class="body" text-anchor="middle" style="fill:#d5f2e8;font-size:18px">Close issue as Approved; announcement may follow.</text>
+  </g>
+
+  <path d="M 64 2410 H 1536" stroke="#dce3ed" stroke-width="1.5"/>
+  <text x="64" y="2449" class="column-label">READING THE FLOW</text>
+  <text x="64" y="2484" class="body" style="font-size:18px">Review is asynchronous by default. Any TC member may request a presentation during Q&amp;A; silence is not approval.</text>
+  <text x="64" y="2516" class="body" style="font-size:18px">Admission requires TC and GB approval, executed documents, transferred assets, completed onboarding and resolved conditions.</text>
+  <text x="64" y="2560" class="small">Sources: AAIF Project Proposal Process and Project Lifecycle Policy. The detailed procedure and governing charters define voting rules.</text>
+</svg>
