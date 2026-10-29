@@ -30,88 +30,76 @@ Current term for TC Members is **March 1, 2026 - December 31, 2026**.
 ## Projects
 
 <table>
-  
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Stage</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+
   <tr>
-    <td>
-      <a href="https://github.com/modelcontextprotocol">
-        <strong>Model Context Protocol (MCP)</strong>
-      </a>
-    </td>
-    <td>
-      Impact Stage
-    </td>
-    <td>
-      An open protocol that enables seamless integration between LLM applications and external data sources and tools.
-    </td>
+    <td><a href="https://github.com/theagentrouter"><strong>Agent Router</strong></a></td>
+    <td>Growth Stage</td>
+    <td>The control plane for agent traffic.</td>
   </tr>
 
   <tr>
-    <td>
-      <a href="https://github.com/aaif-goose">
-        <strong>goose</strong>
-      </a>
-    </td>
-    <td>
-      Impact Stage
-    </td>
-    <td>
-      An open source, extensible AI agent that goes beyond code suggestions. Install, execute, edit, and test with any LLM.
-    </td>
+    <td><a href="https://github.com/agentskills"><strong>Agent Skills</strong></a></td>
+    <td>Impact Stage</td>
+    <td>A simple, open format for giving agents new capabilities and expertise.</td>
   </tr>
 
   <tr>
-    <td>
-      <a href="https://github.com/agentsmd">
-        <strong>AGENTS.MD</strong>
-      </a>
-    </td>
-     <td>
-      Impact Stage
-    </td>
-    <td>
-      A dedicated, predictable place to provide the context and instructions to help AI coding agents work on your project.
-    </td>
+    <td><a href="https://github.com/a2aproject"><strong>Agent2Agent (A2A)</strong></a></td>
+    <td>Growth Stage</td>
+    <td>An open standard for seamless communication and interoperability between AI agents.</td>
   </tr>
 
   <tr>
-    <td>
-      <a href="https://github.com/agentgateway/agentgateway">
-        <strong>agentgateway</strong>
-      </a>
-    </td>
-    <td>
-      Growth Stage
-    </td>
-    <td>
-      One high-performance gateway for service, LLM, and MCP traffic.
-    </td>
+    <td><a href="https://github.com/agentgateway/agentgateway"><strong>agentgateway</strong></a></td>
+    <td>Growth Stage</td>
+    <td>One high-performance gateway for service, LLM, and MCP traffic.</td>
+  </tr>
 
   <tr>
-    <td>
-      <a href="https://github.com/a2aproject">
-        <strong>Agent2Agent (A2A) </strong>
-      </a>
-    </td>
-    <td>
-      Growth Stage
-    </td>
-    <td>
-      An open standard for seamless communication and interoperability between AI agents.
-    </td>
+    <td><a href="https://github.com/agentsmd"><strong>AGENTS.MD</strong></a></td>
+    <td>Impact Stage</td>
+    <td>A dedicated, predictable place to provide the context and instructions to help AI coding agents work on your project.</td>
+  </tr>
 
   <tr>
-    <td>
-      <a href="https://github.com/theagentrouter">
-        <strong>Agent Router</strong>
-      </a>
-    </td>
-    <td>
-      Growth Stage
-    </td>
-    <td>
-      The control plane for agent traffic.
-    </td>    
+    <td><a href="https://github.com/aaif-goose"><strong>goose</strong></a></td>
+    <td>Impact Stage</td>
+    <td>An open source, extensible AI agent that goes beyond code suggestions. Install, execute, edit, and test with any LLM.</td>
+  </tr>
 
+  <tr>
+    <td><a href="https://github.com/modelcontextprotocol"><strong>Model Context Protocol (MCP)</strong></a></td>
+    <td>Impact Stage</td>
+    <td>An open protocol that enables seamless integration between LLM applications and external data sources and tools.</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://github.com/openresponses"><strong>Open Responses</strong></a></td>
+    <td>Impact Stage</td>
+    <td>An open specification for building multi-provider, interoperable LLM interfaces based on the OpenAI Responses API.</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://github.com/openenv"><strong>OpenEnv</strong></a></td>
+    <td>Growth Stage</td>
+    <td>An interface library for RL post-training with environments.</td>
+  </tr>
+
+  <tr>
+    <td><a href="https://github.com/opensandbox-group"><strong>OpenSandbox</strong></a></td>
+    <td>Sandbox Stage</td>
+    <td>A secure, fast, and extensible sandbox runtime for AI agents.</td>
+  </tr>
+
+  </tbody>
 </table>
 
 **Do you want to contribute to an existing project?**
